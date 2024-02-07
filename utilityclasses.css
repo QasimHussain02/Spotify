@@ -1,0 +1,56 @@
+.border{
+    border: 2px solid blue;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: #121212;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.rounded{
+    border-radius: 11px;
+}
+
+
+
+
+
+
+
+/* For Webkit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners of the thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Color of the scrollbar track */
+  }
+  
+  /* For Firefox */
+  /* Please note that as of my knowledge cutoff in January 2022, Firefox doesn't support the full customization of scrollbars with CSS. */
+  
+  /* For Internet Explorer and Edge */
+  /* Please note that as of my knowledge cutoff in January 2022, Internet Explorer is deprecated, and Edge is moving to a different rendering engine (Chromium-based). The following may not work in newer versions of Edge. */
+   
+  /* prev button
+  <i class="fa-solid fa-backward-step"></i>
+
+  next button
+
+  <i class="fa-solid fa-forward-step"></i> */

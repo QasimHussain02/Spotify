@@ -1,0 +1,11 @@
+xmlns="http://www.w3.org/2000/svg"
+
+
+most important:http://192.168.10.5:8080/index.html
+
+
+
+to create local server: http-server
+
+
+
