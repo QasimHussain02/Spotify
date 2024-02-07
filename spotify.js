@@ -70,7 +70,7 @@ async function displayfolder(){
       document.querySelector(".card-container").innerHTML = document.querySelector(".card-container").innerHTML + `<div data-folder=${folder} class="card rounded">
       <div class="play"><i class="fa-solid fa-play"></i></div>
       <img 
-          src="/songs/${folder}/cover.jpg"
+          src="/songs/${folder}/cover.webp"
           alt="">
       <h3>${information.title}</h3>
       <p style="font-weight: 500; font-size: 13px; color: #8f8f8f;">${information.description}</p>
